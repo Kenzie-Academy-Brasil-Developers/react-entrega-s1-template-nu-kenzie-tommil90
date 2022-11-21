@@ -1,0 +1,49 @@
+
+/* .mainIndex{
+    background-color: var(--grey-4);
+    color-scheme: light dark;
+    width: 100vw;
+    height: 100vh;
+} */
+
+.mainIndex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.mainIndex > div {
+
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.mainIndex > div > button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 20px;
+    width: 240px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: var(--brand100);
+    border: 2px solid var(--brand100);
+    color: var(--grey-1);
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.mainIndex > div > button:hover{
+    background-color: var(--brand200);
+    border: 2px solid var(--brand200);
+}
+
+.mainIndex > img {
+
+    width: 55%;
+}

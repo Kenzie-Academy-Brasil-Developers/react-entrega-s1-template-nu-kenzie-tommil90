@@ -1,0 +1,26 @@
+
+
+.totalMoney{
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    width: 420px;
+    height: 96px;
+    background: var(--grey-1);
+    border: 1px solid var(--grey-2);
+    border-radius: 4px;
+}
+
+.totalMoney div {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.totalMoney div > p {
+
+    color: var(--brand100);
+    font-weight: bold;
+}

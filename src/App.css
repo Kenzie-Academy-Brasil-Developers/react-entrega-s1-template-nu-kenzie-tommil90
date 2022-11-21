@@ -1,0 +1,16 @@
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.logo {
+
+  width: 123px;
+  height: 20px;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em var(--brand100));
+}
+

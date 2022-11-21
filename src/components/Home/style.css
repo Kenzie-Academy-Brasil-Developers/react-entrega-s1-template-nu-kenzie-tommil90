@@ -1,0 +1,18 @@
+
+
+.mainHomePage{
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 1rem;
+    margin: 1.5rem 0;
+
+}
+
+.mainHomePage > div {
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
